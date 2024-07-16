@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #8fdbd8;
+}
+header{
+    display: inline;
+}
+
+.jumbotron{
+    text-align: center;
+    background-image: url(hider.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.jumbotron h1{
+    color: #ea70a7;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: -6px  3px 3px #10b48e;
+}
+
+nav{
+    background-color:  #ea70a7;;
+    padding: 1px;
+    position: sticky;
+    z-index: 10000;
+    top: 0;
+    text-align: center;
+    border: 2px solid #10b48e;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: #8fdbd8;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    font-size: 19px;
+    font-weight: 800;
+    color: #10b48e;
+}
+
+/*about me*/
+
+.profil-img{
+    width: 400px;
+    height: 400px;
+}
+
